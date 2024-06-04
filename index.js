@@ -41,3 +41,46 @@ function ResetScore(event) {
 
 let resetButton = document.querySelector("#reset");
 resetButton.addEventListener("click", ResetScore);
+
+function guestOne(event) {
+  event.preventDefault();
+
+  let guestScore = document.querySelector("#guest-score");
+  score = score + 1;
+  guestScore.innerHTML = score;
+}
+
+let buttonFirst = document.querySelector("#guest-1");
+buttonFirst.addEventListener("click", guestOne);
+
+function guestTwo(event) {
+  event.preventDefault();
+
+  let guestScoreTwo = document.querySelector("#guest-score");
+  score = score + 2;
+  guestScoreTwo.innerHTML = score;
+}
+
+let buttonSecond = document.querySelector("#guest-2");
+buttonSecond.addEventListener("click", guestTwo);
+
+function guestThree(event) {
+  event.preventDefault();
+
+  let guestScoreThree = document.querySelector("#guest-score");
+  score = score + 3;
+  guestScoreThree.innerHTML = score;
+}
+
+let buttonThird = document.querySelector("#guest-3");
+buttonThird.addEventListener("click", guestThree);
+
+function resetScoreGuest(event) {
+  event.preventDefault();
+  score = 0;
+  let resetguestOne = document.querySelector("#guest-score");
+  resetguestOne.innerHTML = score;
+}
+
+let resetButtonGuest = document.querySelector("#reset-guest");
+resetButtonGuest.addEventListener("click", resetScoreGuest);
