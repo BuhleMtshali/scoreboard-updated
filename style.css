@@ -8,6 +8,7 @@
 body {
   background-color: #edede9;
   font-family: "Inter", sans-serif;
+  cursor: pointer;
 }
 h1 {
   text-align: center;
@@ -34,9 +35,29 @@ h1 {
   padding-right: 20px;
   padding-bottom: 20px;
   margin: 30px;
+  border-radius: 10px;
 }
 .score-home {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   color: var(--secondary-color);
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+button {
+  padding: 6px 17px;
+  margin: 5px;
+  color: var(--primary-color);
+  font-size: 20px;
+  border: none;
+  background-color: var(--decor-color);
+  border-radius: 9px;
+  font-weight: 600;
+  cursor: grabbing;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  background-color: var(--primary-color);
+  color: var(--decor-color);
 }
