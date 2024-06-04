@@ -9,6 +9,7 @@ body {
   background-color: #edede9;
   font-family: "Inter", sans-serif;
   cursor: pointer;
+  text-align: center;
 }
 h1 {
   text-align: center;
@@ -29,7 +30,7 @@ h1 {
   align-items: center;
 }
 .column-1 {
-  border: 2px solid var(--decor-color);
+  border: 3px solid var(--secondary-color);
   padding-top: 5px;
   padding-left: 20px;
   padding-right: 20px;
@@ -60,4 +61,7 @@ button {
 button:hover {
   background-color: var(--primary-color);
   color: var(--decor-color);
+}
+#save-button {
+  text-align: center;
 }
