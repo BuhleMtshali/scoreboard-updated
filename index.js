@@ -31,3 +31,13 @@ function addThree(event) {
 
 let buttonThree = document.querySelector("#home-3");
 buttonThree.addEventListener("click", addThree);
+
+function ResetScore(event) {
+  event.preventDefault();
+  score = 0;
+  let reset = document.querySelector("#home-score");
+  reset.innerHTML = 0;
+}
+
+let resetButton = document.querySelector("#reset");
+resetButton.addEventListener("click", ResetScore);
