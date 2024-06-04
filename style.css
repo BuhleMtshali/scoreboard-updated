@@ -22,3 +22,21 @@ h1 {
   margin-top: 10px;
   color: var(--primary-color);
 }
+.colums-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column-1 {
+  border: 2px solid var(--decor-color);
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin: 30px;
+}
+.score-home {
+  text-align: center;
+  font-size: 30px;
+  color: var(--secondary-color);
+}
