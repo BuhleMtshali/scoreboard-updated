@@ -65,3 +65,8 @@ button:hover {
 #save-button {
   text-align: center;
 }
+.save,
+.reset {
+  background: var(--secondary-color);
+  color: var(--text-color);
+}
