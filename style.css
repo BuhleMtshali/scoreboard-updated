@@ -13,4 +13,12 @@ h1 {
   text-align: center;
   color: var(--secondary-color);
   font-size: 40px;
+  margin-bottom: 10px;
+}
+.slogan {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 10px;
+  color: var(--primary-color);
 }
