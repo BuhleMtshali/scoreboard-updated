@@ -1,0 +1,16 @@
+:root {
+  --text-color: white;
+  --primary-color: #344e41;
+  --decor-color: #a3b18a;
+  --secondary-color: #283618;
+}
+
+body {
+  background-color: #edede9;
+  font-family: "Inter", sans-serif;
+}
+h1 {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 40px;
+}
